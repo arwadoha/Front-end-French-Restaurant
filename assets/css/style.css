@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Bungee+Spice&family=Dancing+Script&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-image: url('../img/shutterstock_277750193.jpg');
+    height:105vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.navbar{
+    overflow: hidden;
+    margin-top: 30px;
+}
+.navbar .logo{
+    float: left;
+    width: 40%;
+    padding-top: 0px;
+}
+.navbar .logo img{
+    width: 25%;
+}
+.navbar .nav{
+    float: left;
+    width: 58%;
+    margin-top: 25px ;
+    padding-right: 20px;
+   
+}
+.nav .list-item{
+    
+    display: inline-block;
+    
+}
+.list-item a{
+    color: #fff;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+/* header content */
+.header-content{
+    color: #fff;
+    padding-top: 6%;
+}
+.header-content img {
+    width: 27%;
+}
+.header-content h1{
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 11px;
+}
+body{
+    font-family: 'Alegreya', serif;
+}
+.header-content p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.header-content button{
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+    
+}
+.header-content .btn-learn{
+    background-color: #c1ab84;
+    color: #fff;
+    margin-right: 20px;
+
+}
+ .btn-learn:hover{
+    background-color: #fff;
+    color: #000; 
+    cursor: pointer;
+
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0 , .5);
+
+}
+/* about section */
+
+.about-img{
+    float: left;
+    width: 40%;
+}
+.about-img img{
+    width: 80%;
+}
+.about-content{
+    float: left;
+    width: 60%;
+    text-align: center;
+    margin-top: 90px;
+}
+.clear-fix{
+    clear: both;
+}
+.about-content h2{
+    color: #253048;;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about-content h3{
+    color: #c1ab84;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about-content p{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+.about-content ul li {
+    
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    
+}
+.about-content ul li i {
+   background-color: rgb(193, 171, 132);
+   color: #fff;
+   border-radius: 50px;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   line-height: 50px;
+   margin-bottom: 20px;
+   font-size: 20px;
+
+}
+.about-content li span{
+    padding: 20px;
+    font-size: 20px;
+}
+.continer {
+    width: 70%;
+    margin: auto;
+}
+/* reviewers section */
+
+.reviewers , .location {
+    
+    background-color: #000;
+    margin-top : 70px; 
+    
+}
+
+.reviewers_img img  , .location_img img{
+    
+    width: 100%;
+}
+.reviewers .reviewers_decs , .location_decs{
+    float: left;
+    width: 60%;
+}
+.reviewers .reviewers_decs h2 , .location_decs h2{ 
+    color: rgb(37, 48, 72);
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.reviewers .reviewers_decs h3{
+    color: rgb(193, 171, 132);
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+.reviewers .reviewers_img , .location_img {
+    float: left;
+    width: 40%;
+}
+.reviewers .reviewers_decs , p .location_decs p{
+    width: 75%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.reviewers_decs ul li i , .location_decs ul li i{
+    margin-right: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* start cover section */
+.cover{
+    background-image: url('../img/shutterstock_280369721.jpg');
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+/* start menu section */
+.menu{
+    text-align: center;
+}
+.menu h2{
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.menu .subheding {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: #c1ab84;
+}
+.menu-content .item{
+    margin-top: 30px;
+    float: left;
+    width: 33.3%;
+}
+.menu-content .item img{
+    width: 80%;
+}
+.menu-content .item h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu-content .item p{
+    width: 70%;
+    margin-top: 20px;
+    margin: auto;
+    line-height: 30px;
+}
+.menu-content a{
+    background-color: #b39a70;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0 ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    display: inline-block;
+}
+/* start location section */
+.location i{
+    color: #fff;
+    background-color: #c1ab84;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* start footer section */
+.footer{
+    background-color: #403d38;
+    color: #fff;
+    padding-top: 30px;
+
+}
+.footer .item{
+    float: left;
+    width: 25%;
+}
+.footer_content{
+    overflow: hidden;
+}
+.footer .item h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .item p{
+    color: #969696;
+    font-weight: 400;
+    font-size: 14px;
+    width: 85%;
+    margin-bottom: 30px;
+}
+.footer .item a{
+    color: #969696;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+.footer .item a:before{
+
+    content:'>';
+    margin-right: 10px;
+    font-size: 16px;
+}
+.footer .item a:hover{
+    color: #fff;
+    font-size: 14px;
+}
+.footer .item .content{
+    color: #969696 ;
+    font-size: 14px;
+}
+.footer .item .content li {
+    margin-bottom: 15px;
+
+}
+.footer .item .content li .i {
+margin-right: 20px;
+}
+.footer .footer_second {
+    background-color: #403d38;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.footer .footer_second p{
+    color: #969696;
+    font-size: 15px;
+    width: 17%;
+    margin: auto;
+    
+}
+.footer .footer_second .icons{
+    margin-top: 20px;
+}
+.footer .footer_second .icons i{
+    background-color: #484540;
+    color: #969696;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.footer .footer_second .icons i:hover{
+    color: #fff;
+    background-color: #3b5998;
+}
