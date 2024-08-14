@@ -14,7 +14,7 @@ Check out the live demo of the project: [Front-end French Restaurant Demo](https
 
 ## Installation and Setup
 
-1. Clone the repository: git clone https://github.com/your-username/front-end-french-restaurant.git
+1. Clone the repository: git clone https://github.com/arwadoha/Front-end-French-Restaurant.git
 2. Open `index.html` in your web browser to view the project locally.
 
 ## Contributing
